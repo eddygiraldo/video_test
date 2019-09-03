@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: #AB88FF;
+  font-family: 'Muli', sans-serif;
+  color: white;
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  width: 200px;
+  margin: 10px 0 0 10px;
+}
+
+.menu {
+  padding-right: 30px;
+  width: 100px;
+}
+
+.menu-profile  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu:hover .menu-items {
+  display: block;
+}
+
+.menu-profile img {
+  width: 30px;
+}
+
+.menu-items {
+  position: absolute;
+  display: none;
+}
+
+.menu-items ul {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-items a:hover {
+  text-decoration: underline;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.general-input {
+  height: 60px;
+  width: 75%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid white;
+  border-radius: 40px;
+  padding: 0 20px;
+}
+::placeholder {
+  color: white;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+}
+
+input[type='text'] {
+  color: white;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+}
